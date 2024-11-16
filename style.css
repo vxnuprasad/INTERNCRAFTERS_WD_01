@@ -1,0 +1,198 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff5733;
+    padding: 1rem 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #44bdf9;
+    color: #ff5733;
+    border-radius: 5px;
+}
+
+.scrolled {
+    background-color: #44bdf9;
+}
+
+/* Home Section Layout */
+#home {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    height: 100vh;
+}
+
+.home__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    gap: 3rem;
+}
+
+/* Text Styling */
+.home__text {
+    max-width: 600px;
+}
+
+.home__text h1 {
+    font-size: 3rem;
+    color: #222;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.home__text h1 .highlight {
+    color: #44bdf9; /* Blue color for the highlighted name */
+}
+
+/* Image Styling */
+.home__image img {
+    width: 100%;
+    max-width: 500px; /* Increased size */
+    border-radius: 20px; /* Square shape with curved edges */
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a polished look */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .home__content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home__image img {
+        max-width: 80%;
+        margin-top: 2rem;
+    }
+
+    .home__text h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Text Styling */
+.home__text {
+    max-width: 600px;
+    color: #333;
+}
+
+.home__text h1 {
+    font-size: 2.5rem;
+    color: #ff5733;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.home__text p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Section Styles */
+section {
+    padding: 5rem;
+    height: 100vh;
+    text-align: center;
+}
+
+#about {
+    background-color: #e4e4e4;
+}
+
+#services {
+    background-color: #ccc;
+}
+
+#contact {
+    background-color: #b3b3b3;
+}
+
+/*===== FOOTER STYLES =====*/
+.footer {
+    background-color: #ff5733;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer__social {
+    margin-bottom: 1rem;
+}
+
+.footer__icon {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer__icon:hover {
+    color: #44bdf9;
+    transform: scale(1.2);
+}
+
+.footer__copy {
+    color: white;
+    font-size: 1rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .home__content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home__image img {
+        max-width: 100%;
+    }
+}
