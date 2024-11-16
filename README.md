@@ -60,7 +60,3 @@ If you find this project helpful, consider following [vxnuprasad](https://github
 ## Find Me On:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-VishnuPrasad-blue?style=for-the-badge&logo=LinkedIn)](https://www.linkedin.com/in/vxnuprasad)  
 [![Instagram](https://img.shields.io/badge/IG-%40__.v.shnu-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/__.v.shnu/)  
-
----
-
-Let me know if there are any further tweaks you'd like! 😊
